@@ -1,5 +1,8 @@
 # Set working directory
-setwd("Your working directory")
+setwd("C:/Users/6674828/OneDrive - Universiteit Utrecht/SDG/SDG-Repository")
+
+load('Commands.RData')
+
 
 # Using the functions (all names and values are examples)
 ReadFiles('output')
@@ -50,7 +53,7 @@ setwd(direct)
 
 # Input values
 file='output'
-cores=16
+cores=1
 
 ####
 direct=getwd()
@@ -91,7 +94,7 @@ setwd(direct)
 
 # Input values
 file='output'
-cores=10
+cores=1
 min_val=5; max_val=30; step=0.5
 
 ####
@@ -255,7 +258,7 @@ setwd(direct)
 input_file='data_searched_full'
 input_network='output_network_full'
 output= 'SDG_triads'
-cores=16
+cores=1
 
 ###
 direct=getwd()
